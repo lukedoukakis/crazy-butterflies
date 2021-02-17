@@ -27,7 +27,7 @@ SECRET_KEY = 'areui0$#(8-a$ps4_yc0*a8rv3n&#4e-xcu$c2g_^wes#zxh10'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-3-139-76-217.us-east-2.compute.amazonaws.com', '127.0.0.1']
+ALLOWED_HOSTS = ['ec2-3-139-76-217.us-east-2.compute.amazonaws.com', '127.0.0.1', '3.16.219.173', 'crazybutterflies.site']
 
 
 # Application definition
