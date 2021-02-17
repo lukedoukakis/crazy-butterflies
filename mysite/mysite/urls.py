@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', views.homepage, name='home'),
     re_path(r'^about/$', views.about, name='about'),
+    re_path(r'^dailymeetings/$', views.dailyMeetings, name='dailyMeetings'),
+    re_path(r'^projectdocuments/$', views.projectDocuments, name='projectDocuments'),
 ]
