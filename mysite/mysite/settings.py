@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myapp', # added this so that the model created in models.py is translated to a table in the database
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nqiourwo',
+        'USER': 'nqiourwo',
+        'PASSWORD': 'RfyDVorM_A5zN9sByAZ1rqR3kc4VU8Zg',
+        'HOST': 'ziggy.db.elephantsql.com',
+        'PORT': '5432'
     }
 }
 
