@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp', # added this so that the model created in models.py is translated to a table in the database
+    'myapp', # app that database models are in must be listed here
 ]
 
 MIDDLEWARE = [
